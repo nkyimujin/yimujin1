@@ -1,11 +1,19 @@
 def mynum(x):
     if x > 0:
         if x % 11 == 0:
-            return print('%d-11=%d' % (x, x - 11))
+            b = x + 10
+            a = '%d+10=%d' % (x, b)
+            return a
         else:
-            return print('%d-10=%d' % (x, x - 10))
+            b = x + 10
+            a = '%d+10=%d' % (x, b)
+            return a
     elif x < 0:
         if x > -10:
-            return print('%d是' % x)
+            b = x + 10
+            a = '%d+10=%d' % (x, b)
+            return a
         elif x < -10:
-            return print('%d小于-10' % x)
+            b = x + 10
+            a = '%d+10=%d' % (x, b)
+            return a
