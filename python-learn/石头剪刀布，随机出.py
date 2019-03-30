@@ -3,7 +3,8 @@ import time
 
 player = int(random.randint(1, 3))  # round(int(input('请输入您要出的拳头：石头=1，剪刀=2，布=3:')))
 computer = int(random.randint(1, 3))
-print(time.clock())
+# print(time.clock())
+print(time.process_time())
 if (player < 1 or computer < 1
         or player > 3 or computer > 3):
     print('请输入正确参数')
@@ -34,4 +35,5 @@ else:
     else:
         print('电脑出的布，您出的石头，很可惜')
     # print('连电脑都打不过，渣渣,电脑出的是%s,您出的是%s' % (computer, player))
-print(time.clock())
+# print(time.clock())
+print(time.process_time())
