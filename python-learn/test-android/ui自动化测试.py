@@ -5,7 +5,7 @@ d = u2.connect('192.168.0.45')
 
 
 def startApp(start):
-    app = 'com.ruanjie.lotterybible'
+    app = ''
     d.debug = True
     d.app_start(app)
     print('连接成功，启动成功')
@@ -14,7 +14,7 @@ def startApp(start):
 
 def login(login):
     d(text="请输入手机号").click()
-    d(text="请输入手机号").send_keys('15578946471')
+    d(text="请输入手机号").send_keys('')
     d(resourceId="com.ruanjie.lotterybible:id/et_password").send_keys('12345678')
     d.click(0.935, 0.597)
     d.xpath("//android.widget.Button[@text='登 录']").click()
