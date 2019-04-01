@@ -1,13 +1,3 @@
-# import turtle
-# import time
-# turtle.pensize(2)
-# turtle.circle(10)
-# turtle.circle(20)
-# turtle.circle(40)
-# turtle.circle(80)
-# turtle.circle(100)
-# time.sleep(20)
-
 import turtle
 import time
 import os
