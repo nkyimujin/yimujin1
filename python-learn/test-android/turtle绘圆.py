@@ -19,4 +19,4 @@ for i in range(100):
     turtle.fd(10)
     turtle.pendown()
     # turtle.left(90)
-time.sleep(i)
+# time.sleep(i)
