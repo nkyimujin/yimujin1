@@ -4,10 +4,10 @@ import time
 
 def openurl(url):
     browser = webdriver.Chrome()
-    shenxinfu_url = "https://192.168.0.254"
+    shenxinfu_url = "https://"
     browser.get(shenxinfu_url)
     username = 'admin'
-    password = '1qaz@wsx'
+    password = ''
     browser.find_element_by_name('user').send_keys(username)
     browser.find_element_by_name('password').send_keys(password)
     time.sleep(3)
